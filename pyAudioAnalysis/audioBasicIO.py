@@ -85,7 +85,7 @@ def convert_dir_fs_wav_to_wav(audio_folder, sampling_rate, num_channels):
 def read_audio_file(input_file):
     """
     This function returns a numpy array that stores the audio samples of a
-    specified WAV of AIFF file
+    specified WAV or AIFF file
     """
 
     sampling_rate = 0
